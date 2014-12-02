@@ -98,6 +98,15 @@
     // 设置pageControl当前值
     UIPageControl *tempPageControl = (UIPageControl*)[self.view viewWithTag:201];
     tempPageControl.currentPage = currentNum;
+//    if (currentNum == 4) {
+//        [self destroyScrollView];
+//    }
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView {
+    // 获得当前位置，确定展示第几张图片
+    int currentNum = scrollView.contentOffset.x / JH_DEVICE_WIDTH;
+    // 最后一张开始滑动的时候，进行图片消失动画
     if (currentNum == 4) {
         [self destroyScrollView];
     }
@@ -110,8 +119,8 @@
     UIPageControl *page = (UIPageControl *)[self.view viewWithTag:201];
     
     // 设置滑动图消失的动画效果
-    [UIView animateWithDuration:3.0f animations:^{
-        scrollView.center = CGPointMake(JH_DEVICE_WIDTH/2, 1.5*JH_DEVICE_HEIGHT);
+    [UIView animateWithDuration:1.5f animations:^{
+        scrollView.center = CGPointMake(-JH_DEVICE_WIDTH/2, JH_DEVICE_HEIGHT/2);
     } completion:^(BOOL finished) {
         [scrollView removeFromSuperview];
         [page removeFromSuperview];

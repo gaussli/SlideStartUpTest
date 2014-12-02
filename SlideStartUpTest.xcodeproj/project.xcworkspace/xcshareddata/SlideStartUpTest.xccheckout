@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34FE2787-1F81-4381-B464-DA1D1A6828D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlideStartUpTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42A3F46A-2449-4964-B7F3-40D47E289BFC</key>
+		<string>https://github.com/gaussli/SlideStartUpTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SlideStartUpTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42A3F46A-2449-4964-B7F3-40D47E289BFC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gaussli/SlideStartUpTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>42A3F46A-2449-4964-B7F3-40D47E289BFC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42A3F46A-2449-4964-B7F3-40D47E289BFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlideStartUpTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
